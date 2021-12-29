@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>CSS accessibility: Task 1</title>
+    <style>
+      body {
+        background-color: #fff;
+        color: #333;
+        font: 1em / 1.4 Helvetica Neue, Helvetica, Arial, sans-serif;
+        padding: 1em;
+        margin: 0;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      a {
+        text-decoration: underline;
+        color:rgb(28, 28, 158);
+
+        outline: none;
+        cursor: pointer;
+      }
+
+      a:hover {
+        outline: none;
+        color: rgb(156, 6, 158);
+
+
+      }
+
+      a:visited {
+        color: rgb(123, 24, 124);
+
+      }
+
+      a:focus {
+        outline: dotted rgb(41, 41, 114) 1px;
+      }
+    </style>  
+  </head>
+
+  <body>
+
+    <ul>
+      <li><a href="https://www.google.com">Animals</a></li>
+      <li><a href="https://www.globo.com">Computers</a></li>
+      <li><a href="https://www.yahoo.com">Diversity and inclusion</a></li>
+      <li><a href="https://www.amazon.com">Food</a></li>
+      <li><a href="https://www.mercadolivre.com">Medicine</a></li>
+      <li><a href="https://www.ebay.com">Music</a></li>
+    </ul>
+
+  </body>
+
+</html>
